@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 65451369768490532}
   - component: {fileID: 54100682160637124}
   - component: {fileID: 114278029992890066}
+  - component: {fileID: 114886614107854494}
+  - component: {fileID: 114841945656406250}
   m_Layer: 10
   m_Name: Basket
   m_TagString: Untagged
@@ -125,3 +127,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGT: {fileID: 0}
+--- !u!114 &114841945656406250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688772022717488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66f9fe52eb56284eb6b10fecc566f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114886614107854494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688772022717488}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3e19bb07223214c8076fff935cf4b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 300
+  character: {fileID: 0}
